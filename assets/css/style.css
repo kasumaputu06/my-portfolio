@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Android */
+@media (min-width: 992px) {
+  .main-section {
+    margin-top: 18rem;
+  }
+}
+.text-main-color {
+  color: #00D084;
+}
+
+.jumbotron {
+  padding: 1rem;
+  background-color: #00D084;
+}
+.jumbotron .white-text {
+  color: white;
+}
+.jumbotron .text-hero {
+  margin-top: 150px;
+}
+.jumbotron h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+.jumbotron p button {
+  font-weight: 600;
+  padding: 10px 10px;
+  border-color: white;
+}
+.jumbotron p button:hover {
+  background-color: transparent;
+}
+
+.navbar-brand img {
+  width: 48px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.678);
+  font-weight: 500;
+  margin-left: 1.3rem;
+}
+
+.nav-link:hover {
+  color: white !important;
+  transition: ease-in-out;
+}
+
+.active {
+  font-weight: 600;
+  color: white;
+}
+
+.bg-navbar-custom {
+  background-color: #00D084;
+  box-shadow: black;
+}
+
+.text-main h1 {
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+.text-main hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.15rem;
+  color: #00D084;
+}
+
+.text-left {
+  text-align: center;
+}
+.text-left h1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.text-right p {
+  font-size: 15px;
+}
+
+.main-section {
+  margin-top: -0.5rem;
+}
+
+.main-services {
+  margin-top: 2.5rem;
+}
+.main-services img {
+  max-width: 100%;
+}
+
+.text-testimonial h1 {
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+.text-testimonial hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.15rem;
+  color: #ffffff;
+}
+
+.bottom-text {
+  margin-top: 10rem;
+}
+
+.top-image {
+  margin-top: 5rem;
+}/*# sourceMappingURL=style.css.map */
